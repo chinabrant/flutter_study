@@ -1,8 +1,6 @@
-# flutter_study
+# Flutter学习
+详细的Demo和注释
 
-A new Flutter project.
+# UI
+* ScrollView及其子类的下拉刷新
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).

@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import './refreshindicator/refreshIndicator_demo.dart';
+import './router/flutter_router.dart';
+import './router_demo/second_page.dart';
+import './router_demo/router_home_page.dart';
+import './text_style/text_style_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -14,6 +18,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: new MyHomePage(title: 'Flutter实例'),
+      routes: <String, WidgetBuilder> {
+        // 这里可以定义静态路由，不能传递参数
+        '/router/second': (_) => new SecondPage(),
+        '/router/home': (_) => new RouterHomePage(),
+        '/text/style': (_) => new TextStylePage(),
+      },
     );
   }
 }
@@ -38,6 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     list.add({"title": '下拉刷新', 'type': 'pullToRefresh'});
+    list.add({"title": '路由导航', 'type': 'router'});
+    list.add({"title": 'TextStyle', 'type': 'ts', 'router': '/text/style'});
   }
 
   @override
@@ -62,11 +74,13 @@ class _MyHomePageState extends State<MyHomePage> {
       onTap: () {
         if (map['type'] == 'pullToRefresh') {
           // 下拉刷新
-          Navigator.of(context).push(new PageRouteBuilder(pageBuilder:
-              (BuildContext context, Animation<double> animation,
-                  Animation<double> secondaryAnimation) {
-            return new RefreshIndicatorDemo();
-          }));
+          BRouter.pushRefreshDetail(context);
+        }
+        else if (map['type'] == 'router') {
+          Navigator.of(context).pushNamed('/router/home');
+        }
+        else if (map['type'] == 'ts') {
+          Navigator.of(context).pushNamed('/text/style');
         }
       },
       child: new Column(
@@ -77,7 +91,9 @@ class _MyHomePageState extends State<MyHomePage> {
             alignment: Alignment.center,
             child: new Text(map['title']),
           ),
-          Divider(height: 0.5,)
+          Divider(
+            height: 0.5,
+          )
         ],
       ),
     );
