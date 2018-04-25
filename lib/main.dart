@@ -5,6 +5,7 @@ import './router/flutter_router.dart';
 import './router_demo/second_page.dart';
 import './router_demo/router_home_page.dart';
 import './text_style/text_style_demo.dart';
+import './load_more/load_more_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/router/second': (_) => new SecondPage(),
         '/router/home': (_) => new RouterHomePage(),
         '/text/style': (_) => new TextStylePage(),
+        '/load/more': (_) => new LoadMorePage(),
       },
     );
   }
@@ -50,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add({"title": '下拉刷新', 'type': 'pullToRefresh'});
     list.add({"title": '路由导航', 'type': 'router'});
     list.add({"title": 'TextStyle', 'type': 'ts', 'router': '/text/style'});
+    list.add({"title": '上拉加载更多', 'type': 'lm', 'router': '/load/more'});
   }
 
   @override
@@ -81,6 +84,9 @@ class _MyHomePageState extends State<MyHomePage> {
         }
         else if (map['type'] == 'ts') {
           Navigator.of(context).pushNamed('/text/style');
+        }
+        else {
+          Navigator.of(context).pushNamed(map['router']);
         }
       },
       child: new Column(
