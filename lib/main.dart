@@ -6,6 +6,8 @@ import './router_demo/second_page.dart';
 import './router_demo/router_home_page.dart';
 import './text_style/text_style_demo.dart';
 import './load_more/load_more_demo.dart';
+import './list/list_view_demo.dart';
+import './theme/theme_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -16,6 +18,9 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Flutter Demo',
       theme: new ThemeData(
+        // brightness: Brightness.dark,
+        primaryColor: Colors.lightBlue[800],
+        accentColor: Colors.cyan[600],
         primarySwatch: Colors.blue,
       ),
       home: new MyHomePage(title: 'Flutter实例'),
@@ -25,6 +30,8 @@ class MyApp extends StatelessWidget {
         '/router/home': (_) => new RouterHomePage(),
         '/text/style': (_) => new TextStylePage(),
         '/load/more': (_) => new LoadMorePage(),
+        '/list/index': (_) => new ListViewPage(),
+        '/theme/index': (_) => new ThemeDemo(),
       },
     );
   }
@@ -53,6 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add({"title": '路由导航', 'type': 'router'});
     list.add({"title": 'TextStyle', 'type': 'ts', 'router': '/text/style'});
     list.add({"title": '上拉加载更多', 'type': 'lm', 'router': '/load/more'});
+    list.add({"title": 'ListView', 'type': 'list', 'router': '/list/index'});
+    list.add({"title": '使用主题', 'type': 'theme', 'router': '/theme/index'});
   }
 
   @override
@@ -105,3 +114,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
