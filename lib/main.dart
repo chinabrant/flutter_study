@@ -8,6 +8,7 @@ import './text_style/text_style_demo.dart';
 import './load_more/load_more_demo.dart';
 import './list/list_view_demo.dart';
 import './theme/theme_demo.dart';
+import './snackbar/snackbar_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/load/more': (_) => new LoadMorePage(),
         '/list/index': (_) => new ListViewPage(),
         '/theme/index': (_) => new ThemeDemo(),
+        '/snackbar/index': (_) => new SnackBarPage(),
       },
     );
   }
@@ -62,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add({"title": '上拉加载更多', 'type': 'lm', 'router': '/load/more'});
     list.add({"title": 'ListView', 'type': 'list', 'router': '/list/index'});
     list.add({"title": '使用主题', 'type': 'theme', 'router': '/theme/index'});
+    list.add({"title": 'SnackBar', 'type': 'snackbar', 'router': '/snackbar/index'});
   }
 
   @override
