@@ -25,6 +25,7 @@ class SnackBarPageState extends State<SnackBarPage> {
               child: new Text('显示SnackBar'),
             ),
           );
-        }));
+        })
+    );
   }
 }
