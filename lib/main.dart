@@ -9,6 +9,8 @@ import './load_more/load_more_demo.dart';
 import './list/list_view_demo.dart';
 import './theme/theme_demo.dart';
 import './snackbar/snackbar_demo.dart';
+import './tabcontroller/tab_controller_demo.dart';
+import './tabcontroller/tab_bottom_demo.dart';
 
 void main() => runApp(new MyApp());
 
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         '/list/index': (_) => new ListViewPage(),
         '/theme/index': (_) => new ThemeDemo(),
         '/snackbar/index': (_) => new SnackBarPage(),
+        '/tabbar/index': (_) => new TabBarDemo(),
+        '/tabbar/bottom': (_) => new BottomTabBarPage(),
       },
     );
   }
@@ -58,13 +62,16 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    list.add({"title": '下拉刷新', 'type': 'pullToRefresh'});
-    list.add({"title": '路由导航', 'type': 'router'});
-    list.add({"title": 'TextStyle', 'type': 'ts', 'router': '/text/style'});
-    list.add({"title": '上拉加载更多', 'type': 'lm', 'router': '/load/more'});
-    list.add({"title": 'ListView', 'type': 'list', 'router': '/list/index'});
-    list.add({"title": '使用主题', 'type': 'theme', 'router': '/theme/index'});
-    list.add({"title": 'SnackBar', 'type': 'snackbar', 'router': '/snackbar/index'});
+    list.add({"title": '下拉刷新',      'type': 'pullToRefresh'});
+    list.add({"title": '路由导航',      'type': 'router'});
+    list.add({"title": 'TextStyle',    'type': 'ts',        'router': '/text/style'});
+    list.add({"title": '上拉加载更多',    'type': 'lm',       'router': '/load/more'});
+    list.add({"title": 'ListView',      'type': 'list',     'router': '/list/index'});
+    list.add({"title": '使用主题',        'type': 'theme',    'router': '/theme/index'});
+    list.add({"title": 'SnackBar',      'type': 'snackbar', 'router': '/snackbar/index'});
+    list.add({"title": '顶部tab切换',     'type': 'tabbar',   'router': '/tabbar/index'});
+    list.add({"title": '底部tab切换',     'type': 'tabbarb', 'router': '/tabbar/bottom'});
+
   }
 
   @override
