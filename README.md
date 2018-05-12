@@ -11,6 +11,10 @@
 * [md5加密](https://www.jianshu.com/p/de01102e526f)
 * [使用顶部切换导航TabBar](https://www.jianshu.com/p/fbd1d0e22f9c)
 
+# Flutter官方
+[官网](http://flutter.io/)
+[Medium Flutter](https://medium.com/flutter-io)
+
 # Flutter资源
 * [FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 这里有不少Flutter写的项目【英文】
 * [Flutter写的开源中国客户端 FlutterOSC](https://github.com/yubo725/FlutterOSC) UI看起来还不错 【中文】
@@ -24,7 +28,7 @@
 * [Markdown 组件](https://github.com/flutter/flutter_markdown) 用了一下，功能不是太完善.不过基本上够用了，可以完全定制
 * [Readhub Flutter 客户端](https://github.com/flyou/readhub_flutter) 【中文】
 * [RXDart](https://github.com/ReactiveX/rxdart) RxSwift用起来很爽，dart不知道怎么样。
-* [又是一个Examples集合，这个例子都是比较简单的](https://github.com/nisrulz/flutter-examples)
+* [又是一个Examples集合](https://github.com/nisrulz/flutter-examples)这个里面例子都是比较简单的
 * [menu_flutter](https://github.com/braulio94/menu_flutter) 一个flutter app，UI不错
 * [flutter_launcher_icons](https://github.com/franzsilva/flutter_launcher_icons) flutter的启动页面
 * [conference_app](https://github.com/dart-lang/conference_app) 又是一个app
