@@ -12,8 +12,8 @@
 * [使用顶部切换导航TabBar](https://www.jianshu.com/p/fbd1d0e22f9c)
 
 # Flutter官方
-[官网](http://flutter.io/)
-[Medium Flutter](https://medium.com/flutter-io)
+* [官网](http://flutter.io/)
+* [Medium Flutter](https://medium.com/flutter-io)
 
 # Flutter资源
 * [FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 这里有不少Flutter写的项目【英文】
@@ -32,3 +32,7 @@
 * [menu_flutter](https://github.com/braulio94/menu_flutter) 一个flutter app，UI不错
 * [flutter_launcher_icons](https://github.com/franzsilva/flutter_launcher_icons) flutter的启动页面
 * [conference_app](https://github.com/dart-lang/conference_app) 又是一个app
+
+# 博客
+* [y的博客](https://7449.github.io/)
+* [Flutter.link](http://flutter.link/)
