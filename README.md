@@ -21,6 +21,7 @@
 * [从环境搭建到进阶系列教程](http://flutter-dev.com/bbs/topic/12)
 
 # Flutter资源
+* [官方插件](https://github.com/flutter/plugins)
 * [FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 这里有不少Flutter写的项目【英文】
 * [Flutter写的开源中国客户端 FlutterOSC](https://github.com/yubo725/FlutterOSC) UI看起来还不错 【中文】
 * [DroidKaigi 2018 Flutter App](https://github.com/konifar/droidkaigi2018-flutter) 也是一个开源的客户端 日本的
@@ -37,6 +38,8 @@
 * [menu_flutter](https://github.com/braulio94/menu_flutter) 一个flutter app，UI不错
 * [flutter_launcher_icons](https://github.com/franzsilva/flutter_launcher_icons) flutter的启动页面
 * [conference_app](https://github.com/dart-lang/conference_app) 又是一个app
+* [inKino](https://github.com/roughike/inKino) 一个app
+* [https://github.com/brianegan/flutter_architecture_samples](https://github.com/brianegan/flutter_architecture_samples) TodoMVC 这个可以去看一下
 
 # 博客
 * [y的博客](https://7449.github.io/)
