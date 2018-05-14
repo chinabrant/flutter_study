@@ -39,7 +39,7 @@
 * [flutter_launcher_icons](https://github.com/franzsilva/flutter_launcher_icons) flutter的启动页面
 * [conference_app](https://github.com/dart-lang/conference_app) 又是一个app
 * [inKino](https://github.com/roughike/inKino) 一个app
-* [https://github.com/brianegan/flutter_architecture_samples](https://github.com/brianegan/flutter_architecture_samples) TodoMVC 这个可以去看一下
+* [TodoMVC](https://github.com/brianegan/flutter_architecture_samples) TodoMVC 这个可以去看一下
 
 # 博客
 * [y的博客](https://7449.github.io/)
