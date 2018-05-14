@@ -11,9 +11,12 @@
 * [md5加密](https://www.jianshu.com/p/de01102e526f)
 * [使用顶部切换导航TabBar](https://www.jianshu.com/p/fbd1d0e22f9c)
 
-# Flutter官方
+# Flutter 网站
 * [官网](http://flutter.io/)
+* [Flutter 中文网](https://flutterchina.club/)
 * [Medium Flutter](https://medium.com/flutter-io)
+* [Dart 语言中文论坛](http://www.cndartlang.com/)
+* [Flutter 中文论坛]()
 
 # Flutter资源
 * [FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 这里有不少Flutter写的项目【英文】
