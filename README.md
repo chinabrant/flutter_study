@@ -21,6 +21,7 @@
 * [从环境搭建到进阶系列教程](http://flutter-dev.com/bbs/topic/12)
 
 # Flutter资源
+* [awesome-flutter](https://github.com/Solido/awesome-flutter) 收集得太全了
 * [官方插件](https://github.com/flutter/plugins)
 * [FlutterExampleApps](https://github.com/iampawan/FlutterExampleApps) 这里有不少Flutter写的项目【英文】
 * [Flutter写的开源中国客户端 FlutterOSC](https://github.com/yubo725/FlutterOSC) UI看起来还不错 【中文】
