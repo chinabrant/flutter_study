@@ -10,6 +10,7 @@
 * [使用SnackBar](https://www.jianshu.com/p/fbc8236fc8db)
 * [md5加密](https://www.jianshu.com/p/de01102e526f)
 * [使用顶部切换导航TabBar](https://www.jianshu.com/p/fbd1d0e22f9c)
+* [Flutter Dart 静态变量值为null的bug](https://www.jianshu.com/p/9cc66755182b)
 
 # Flutter 网站
 * [官网](http://flutter.io/)

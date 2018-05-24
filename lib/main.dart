@@ -11,6 +11,7 @@ import './theme/theme_demo.dart';
 import './snackbar/snackbar_demo.dart';
 import './tabcontroller/tab_controller_demo.dart';
 import './tabcontroller/tab_bottom_demo.dart';
+import './static_value/static_value_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         '/snackbar/index': (_) => new SnackBarPage(),
         '/tabbar/index': (_) => new TabBarDemo(),
         '/tabbar/bottom': (_) => new BottomTabBarPage(),
+        '/staticvalue': (_) => new StaticValuePage(),
       },
     );
   }
@@ -71,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add({"title": 'SnackBar',      'type': 'snackbar', 'router': '/snackbar/index'});
     list.add({"title": '顶部tab切换',     'type': 'tabbar',   'router': '/tabbar/index'});
     list.add({"title": '底部tab切换',     'type': 'tabbarb', 'router': '/tabbar/bottom'});
-
+    list.add({"title": '静态变量bug',     'type': 'staticvalue', 'router': '/staticvalue'});
   }
 
   @override
