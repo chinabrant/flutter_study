@@ -42,6 +42,7 @@
 * [conference_app](https://github.com/dart-lang/conference_app) 又是一个app
 * [inKino](https://github.com/roughike/inKino) 一个app
 * [TodoMVC](https://github.com/brianegan/flutter_architecture_samples) TodoMVC 这个可以去看一下
+* [udacity-course github代码](https://github.com/flutter/udacity-course) udacity上的Flutter课程，Google开发的[课程地址](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)
 
 # 博客
 * [y的博客](https://7449.github.io/)
