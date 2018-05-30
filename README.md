@@ -11,6 +11,7 @@
 * [md5加密](https://www.jianshu.com/p/de01102e526f)
 * [使用顶部切换导航TabBar](https://www.jianshu.com/p/fbd1d0e22f9c)
 * [Flutter Dart 静态变量值为null的bug](https://www.jianshu.com/p/9cc66755182b)
+* [最近学习做的一个App 游戏段子](https://github.com/chinabrant/GameJoke)
 
 # Flutter 网站
 * [官网](http://flutter.io/)
