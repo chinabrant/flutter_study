@@ -47,6 +47,18 @@
 * [仿知乎的UI](https://github.com/HackSoul/zhihu-flutter)
 * [fluro 路由库](https://github.com/theyakka/fluro) 很早就用过了
 
+# 加解密
+* [PointyCastle](https://github.com/PointyCastle/pointycastle) 这个很全面
+* [encrypt](https://github.com/leocavalcante/encrypt) 这个是基于PointyCastle的，提供更好用的api
+
+# 网络
+* [http](https://pub.dev/packages/http) 这个是官方的
+* [dio](https://pub.dartlang.org/packages/dio)  提供了一些其它的功能，像拦截器，全局配置等，但是有时候会有问题。自测有时候返回的数据会有问题，不知道是不是内部做了什么转换。
+* [http_multi_server](https://pub.dev/packages/http_multi_server)
+
+# 编码转换
+* [gbk2utf8](https://github.com/jzoom/gbk2utf8)  爬网页的会用到的
+
 # 博客
 * [y的博客](https://7449.github.io/)
 * [Flutter.link](http://flutter.link/)

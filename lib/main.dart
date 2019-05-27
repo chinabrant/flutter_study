@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study/tab_view/TabViewScreen.dart';
 import 'dart:async';
 import './refreshindicator/refreshIndicator_demo.dart';
 import './router/flutter_router.dart';
@@ -12,6 +13,7 @@ import './snackbar/snackbar_demo.dart';
 import './tabcontroller/tab_controller_demo.dart';
 import './tabcontroller/tab_bottom_demo.dart';
 import './static_value/static_value_page.dart';
+import './animation/animation01.dart';
 
 void main() => runApp(new MyApp());
 
@@ -40,6 +42,8 @@ class MyApp extends StatelessWidget {
         '/tabbar/index': (_) => new TabBarDemo(),
         '/tabbar/bottom': (_) => new BottomTabBarPage(),
         '/staticvalue': (_) => new StaticValuePage(),
+        '/animation01': (_) => Animation01(),
+        '/tab/custom': (_) => TabViewScreen(),
       },
     );
   }
@@ -64,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
+    list.add({"title": '自定义tab view', 'type': 'customtab', 'router': '/tab/custom'});
     list.add({"title": '下拉刷新',      'type': 'pullToRefresh'});
     list.add({"title": '路由导航',      'type': 'router'});
     list.add({"title": 'TextStyle',    'type': 'ts',        'router': '/text/style'});
@@ -74,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
     list.add({"title": '顶部tab切换',     'type': 'tabbar',   'router': '/tabbar/index'});
     list.add({"title": '底部tab切换',     'type': 'tabbarb', 'router': '/tabbar/bottom'});
     list.add({"title": '静态变量bug',     'type': 'staticvalue', 'router': '/staticvalue'});
+    list.add({"title": '动画01',     'type': 'animation01', 'router': '/animation01'});
   }
 
   @override

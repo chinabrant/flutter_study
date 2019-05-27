@@ -27,6 +27,7 @@ class SnackBarPageState extends State<SnackBarPage> {
     // ByteData byteData = await image.toByteData(format: ui.ImageByteFormat.png);
     // Uint8List pngBytes = byteData.buffer.asUint8List();
     // print(pngBytes);
+    // ui.instantiateImageCodec(Uint8List(20));
   }
 
   @override
